@@ -271,8 +271,8 @@ const loginResponse = await fetch('/api/auth/login', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
-    email: 'admin@zoo.com',
-    password: 'admin123'
+    email: 'example@zoo.com',
+    password: 'example123'
   })
 });
 const { token } = await loginResponse.json();
