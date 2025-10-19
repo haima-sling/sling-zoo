@@ -1,0 +1,155 @@
+# Dependencies
+node_modules/
+jspm_packages/
+package-lock.json
+yarn.lock
+
+# Production
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Testing
+.cache/
+.parcel-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploads
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Database
+*.sqlite
+*.db
+data/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# MongoDB
+dump/
+
+# Redis
+dump.rdb
+
+# Webpack
+.webpack/
+
+# PM2
+.pm2/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Serverless
+.serverless/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Backups
+*.backup
+*.bak
+backups/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.cer
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous
+.grunt
+bower_components
+.lock-wscript
+.wafpickle-N
+lib-cov
+coverage
+.nyc_output
+.cache
+typings/
